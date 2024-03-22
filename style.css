@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 16, 16));
+    color: white;
+  }
+  #divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+  }
+  .centered-bold {
+    /* Center the text */
+    text-align: center;
+  
+    /* Make the text bold */
+    font-weight: bold;
+  }
+  .animated-background {
+    /* Set the height and width of the element */
+    height: 10vh;
+    width: 10%;
+  
+    /* Set the background color */
+    background-color: #f5f5f5;
+  
+    /* Create the animation */
+    background-image: linear-gradient(to right, #f5f5f5 50%, #e0e0e0 50%);
+    background-size: 200% 10%;
+    animation: gradient 3s ease infinite;
+  }
+  
+  /* Define the animation */
+  @keyframes gradient {
+    0% {
+      background-position: 50% 25%;
+    }
+    50% {
+      background-position: 50% 25%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
